@@ -21,16 +21,16 @@ export default function Fourth(){
 
 
 
-<div className="space-y-12">
+<div className="space-y-12 ">
     <Heading text="Contact"/>
     <div className="space-y-5">
 <p>Email: moeezkashif13@gmail.com</p>
 <p>T: +92 336 4507406</p>
 
-<p ><a href="https://www.linkedin.com/in/abdulmoeez19" target="_blank">Linkedin: https://www.linkedin.com/in/abdulmoeez19</a></p>
+<p  ><a className="w-full block break-words" href="https://www.linkedin.com/in/abdulmoeez19" target="_blank">Linkedin: https://www.linkedin.com/in/abdulmoeez19</a></p>
 
 
-<p ><a href="https://www.facebook.com/abdulmoeez121367" target="_blank">Facebook: https://www.facebook.com/abdulmoeez121367</a></p>
+<p  ><a className="w-full block break-words" href="https://www.facebook.com/abdulmoeez121367" target="_blank">Facebook: https://www.facebook.com/abdulmoeez121367</a></p>
     
     
     </div>

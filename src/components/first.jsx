@@ -10,7 +10,7 @@ export default function FirstSection(){
 {/*  */}
         <div className="md:w-1/2 bg-[#F5F3EF] px-mobilePadding md:px-tabletPadding lg:px-desktopPadding">
 
-<div className="hidden md:flex font-medium gap-x-5 pt-6 lg:text-lg">
+<div className="text-sm md:text-base lg:text-lg  flex justify-center md:justify-start font-medium gap-x-5 pt-6 ">
     <a href="#">Home</a>
     <a href="#about" >About me</a>
     <a href="#services" >Services</a>
@@ -18,14 +18,14 @@ export default function FirstSection(){
 </div>
 
 
-<div className="pt-12 pb-8 flex flex-col items-center  space-y-1 text-[#6B727B] md:text-2xl">
+<div className="pt-12 pb-8 flex flex-col items-center  space-y-1 text-[#6B727B] md:text-2xl text-center">
 
 
-<div className="text-6xl text-[#E1B353]"><LuSofa/></div>
+<div className=" text-6xl text-[#E1B353]"><LuSofa/></div>
 
 <p>Lucia Rossi, MSc</p>
 
-<p>Adult, Child and Adolescent Counsellor</p>
+<p className="md:text-lg">Adult, Child and Adolescent Counsellor</p>
 
 </div>
 

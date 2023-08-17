@@ -38,7 +38,8 @@ export default function Home() {
 
 <div className="text-black font-light">
 
-<div className="md:hidden">
+<div className="hidden md:hidden">
+
 <div className="h-[70px] bg-[#e1d6ce] flex items-center ">
 
   <div className="ml-auto mr-3 bg-white w-[50px] h-[50px] flex items-center justify-center rounded-full text-3xl text-[#2e251f] cursor-pointer" onClick={()=>setShowNav(true)}>
@@ -50,7 +51,7 @@ export default function Home() {
 
 </div>
 
-<div className={`h-full fixed bg-[rgba(0,0,0,0.8)] w-full top-0 ${showNav?'right-0': "-right-[800px]"} `} style={{transition:'all 0.7s'}}>
+<div className={` h-full fixed bg-[rgba(0,0,0,0.8)] w-full top-0 ${showNav?'right-0': "-right-[800px]"} `} style={{transition:'all 0.7s'}}>
 <div className="bg-[#D6C8C0] absolute right-0 h-full w-[90%] flex flex-col">
 
 <div className="  bg-white ml-auto mr-5 mt-5 w-10 h-10 text-2xl rounded-full flex justify-center items-center cursor-pointer" onClick={()=>setShowNav(false)}>
